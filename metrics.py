@@ -45,7 +45,7 @@ def maximum(data: list) -> float:
         if number > maximum:
             maximum = number
         
-    return maximum
+    return float(maximum)
 
 
 
